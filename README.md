@@ -3,13 +3,12 @@
 ## Overview of the loan prediction risk analysis:
 
 The purpose of this analysis is well defined (4 pt)
-
+The purpose of this analysis was to test if machine learning can be used to predict credit risk. It will hopefully provide a quicker and more reliable experience. Machine Learning will in theory be more accurate and therefore lead to less loan default rates. I built and evaluated several marine learning models / algorithms to evaluate their performance and see how well they predict the loan data. 
 
 
 ## Results:
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
 
-There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models (15 pt)
+
 ### 1. Naive Random Oversampling
 - The model is 65% accurate and it is 100% precise for low risk loans with a 67% sensitivity. The high risk loans were 1% precise with a 63% sensitivity.
 ![image 1](https://github.com/chloebellehooton/Credit_Risk_Analysis/blob/main/images/naive_random_oversampling.png)
