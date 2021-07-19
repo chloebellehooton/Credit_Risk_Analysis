@@ -38,7 +38,7 @@ The purpose of this analysis was to test if machine learning can be used to pred
 
 ## Summary:
 
-There is a summary of the results (2 pt)
-There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
+The goal of this analysis was to evaluate all loans but the more compelling information would be to be able to use machine learning to evaluate the high risk loans that create financial risk for the bank. All of the models had quite a high precision rate for low risk loans but unfortunately had very low precision rates for the high risk loans. Despite the fairly high accuracy rates, the low precision scores for the high risk loans throw out most of the models. 
 
-Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+The Easy Ensemble AdaBoost Classifier would be my recommendation going forward given it had the highest recall/sensitivity for the high risk loans. 
+
