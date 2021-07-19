@@ -11,27 +11,27 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models (15 pt)
 ### 1. Naive Random Oversampling
-- hhh
+- The model is 65% accurate and it is 100% precise for low risk loans with a 67% sensitivity. The high risk loans were 1% precise with a 63% sensitivity.
 ![image 1](https://github.com/chloebellehooton/Credit_Risk_Analysis/blob/main/images/naive_random_oversampling.png)
 
 ### 2. SMOTE Oversampling
-- bb
+- The model is 65% accurate and it is 100% precise for low risk loans with a 66% sensitivity. The high risk loans were 1% precise with a 64% sensitivity.
 ![image ](https://github.com/chloebellehooton/Credit_Risk_Analysis/blob/main/images/SMOTE_oversampling.png)
 
 ### 3. ClusterCentroids Undersampling
-- hh
+- The model is 51% accurate and it is 100% precise for low risk loans with a 47% sensitivity. The high risk loans were 1% precise with a 56% sensitivity.
 ![image ](https://github.com/chloebellehooton/Credit_Risk_Analysis/blob/main/images/undersampling.png)
 
 ### 4. Combination (Over and Under) Sampling: SMOTEENN
-- hh
+- The model is 51% accurate and it is 100% precise for low risk loans with a 47% sensitivity. The high risk loans were 1% precise with a 56% sensitivity.
 ![image ](https://github.com/chloebellehooton/Credit_Risk_Analysis/blob/main/images/SMOTEENN.png)
 
 ### 5. Balanced Random Forest Classifier
-- hh
+- The model is 78% accurate and it is 100% precise for low risk loans with a 91% sensitivity. The high risk loans were 4% precise with a 67% sensitivity.
 ![image ](https://github.com/chloebellehooton/Credit_Risk_Analysis/blob/main/images/balanced_random_forest_classifier.png)
 
 ### 6. Easy Ensemble AdaBoost Classifier
-- hh
+- The model is 91% accurate and it is 100% precise for low risk loans with a 94% sensitivity. The high risk loans were 7% precise with a 91% sensitivity.
 ![image ](https://github.com/chloebellehooton/Credit_Risk_Analysis/blob/main/images/Easy_Ensemble_AdaBoost_Classifier.png)
 
 
